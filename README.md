@@ -10,6 +10,7 @@ Project Setup:
 - $ pip install -r requirements.txt
   
 Development:
+
 1. Make a branch:
 - $ git checkout -b <branch_name>
 
