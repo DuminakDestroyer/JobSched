@@ -12,16 +12,16 @@ Project Setup:
 Development:
 
 Make a branch:
-- $ git checkout -b <branch_name>
+- $ git checkout -b *branch name*
 
 Dev Time
 
 Updating your branch:
 
 - $ git status
-- $ git add -i
+- $ git add -p
 - $ git commit -m "*commit_message*"
-- $ git push origin <branch_name> 
+- $ git push origin *branch name*
 
 When done, submit Pull Request for review.
 
@@ -29,7 +29,7 @@ Upon approval, update master, rebase
 
 - $ git fetch
 - $ git rebase master
-- $ git push --force origin <branch_name>
+- $ git push --force origin *branch name*
 
 Merge:
 
@@ -40,7 +40,7 @@ Delete branch:
 
 - $ git branch -d contact-form
 - $ git push origin master
-- $ git push origin --delete <branch_name>
+- $ git push origin --delete *branch name*
     
 Coding Conventions:
 - Flake-8
