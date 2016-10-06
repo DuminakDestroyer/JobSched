@@ -39,8 +39,9 @@ Merge:
 Delete branch:
 
 - $ git branch -d contact-form
-- $ git push origin master
 - $ git push origin --delete *branch name*
+- $ git push origin master
+
     
 Coding Conventions:
 - Flake-8
