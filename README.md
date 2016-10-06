@@ -11,7 +11,7 @@ Project Setup:
   
 Development:
 1. Make a branch:
-- $ git checkout -b *branch_name*
+- $ git checkout -b <branch_name>
 
 2. Dev Time
 
