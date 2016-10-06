@@ -12,21 +12,31 @@ Project Setup:
 Development:
 1. Make a branch:
 - $ git checkout -b *branch_name*
+
 2. Dev Time
+
 3. Updating your branch:
+
 - $ git status
 - $ git add -i
-- $ git commit -m "*commit message*"
-- $ git push origin *branch name*
+- $ git commit -m "*commit_message*"
+- $ git push origin <branch_name> 
+
 4. When done, submit Pull Request for review.
+
 5. Upon approval, update master, rebase
+
 - $ git fetch
 - $ git rebase master
-- $ git push --force origin *branch name*
+- $ git push --force origin <branch_name>
+
 6. Merge:
+
 - $ git checkout master
 - $ git merge --no-ff *branch name*
+
 7. Delete branch:
+
 - $ git branch -d contact-form
 - $ git push origin master
 - $ git push origin --delete <branch_name>
